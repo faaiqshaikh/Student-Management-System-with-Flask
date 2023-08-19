@@ -60,10 +60,7 @@ Welcome to the Student Management System repository! This application allows you
 ## Directory Structure
 
 - `app.py`: The main Flask application.
-- `create_db.py`: Script to create the SQLite database.
 - `templates/`: Contains HTML templates for the user interface.
-- `static/`: Contains the CSS styles.
-- `examples/`: Provides example API requests and responses.
 - `README.md`: Documentation for the repository.
 
 ## Collaborators
