@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delete Student</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Delete Student</h1>
+        <p>Are you sure you want to delete the following student?</p>
+        <p>Student ID: {{ student[0] }}</p>
+        <p>First Name: {{ student[1] }}</p>
+        <p>Last Name: {{ student[2] }}</p>
+        <p>Date of Birth: {{ student[3] }}</p>
+        <p>Amount Due: {{ student[4] }}</p>
+        <form action="/delete/{{ student[0] }}" method="POST">
+            <button type="submit" class="btn btn-danger">Delete Student</button>
+        </form>
+    </div>
+</body>
+</html>
